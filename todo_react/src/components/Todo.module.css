@@ -1,0 +1,57 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todoList {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: rgba(67, 71, 135, 0.018);
+  border-radius: 6px;
+  padding: 0.2rem 0rem 0.2rem 0.6rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(60, 66, 146, 0.13);
+  }
+}
+
+.isChecked {
+  text-decoration: line-through;
+}
+.hiddenCheck {
+  display: none;
+}
+.check {
+  user-select: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.delete {
+  user-select: none;
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  margin-left: 1.2rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.todoList:hover .deleteIcon {
+  opacity: 1;
+}
+.deleteIcon {
+  opacity: 0.5;
+  width: 1.3rem;
+}
+
+.text {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  width: 26rem;
+}

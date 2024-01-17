@@ -1,0 +1,25 @@
+.wrapper {
+  width: 35rem;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.toDoContainer {
+  padding: 1rem;
+  width: 100%;
+  border: 2px solid rgb(61, 61, 62);
+  min-height: 24rem;
+  margin-top: 0.5rem;
+  border-radius: 13px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.285);
+}
+
+.remainedToDoCount {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: inline-block;
+  height: 1rem;
+  color: rgba(226, 22, 22, 0.792);
+  font-weight: bold;
+}
